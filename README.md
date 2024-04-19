@@ -52,3 +52,5 @@ This is public data to explore how different customer types are using Cyclistic 
 Tools: Google BigQuery is used to combine various dataset into one and clean it.
 Reason:
 A worksheet can only have 1,048,576 rows in Microsoft Excel because of its inability to manage large amounts of data. Because the Cyclistic dataset has more than 5.6 million rows, it is essential to use a platform like BigQuery that supports huge volumes of data.
+### Data combination
+The 12 files are uploaded as tables into the dataset "2023_tripdata". 
