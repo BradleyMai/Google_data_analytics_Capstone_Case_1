@@ -1,0 +1,5 @@
+I encountered a lot of error along the way.
+1. I did not know how to join 2 table with exact column names => Find out about UNION/UNION ALL
+2. I did not know about select all => asterisk (*)
+3. Table is created => DROP TABLE IF EXISTS with an S
+4. Incompatible types in tables => 
