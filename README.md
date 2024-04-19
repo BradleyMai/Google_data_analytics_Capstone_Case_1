@@ -49,3 +49,4 @@ This is public data to explore how different customer types are using Cyclistic 
 - end_lat, end_lng
 - member_casual
 ## Process
+Tools: Google BigQuery is used to combine various dataset into one and clean it. 
