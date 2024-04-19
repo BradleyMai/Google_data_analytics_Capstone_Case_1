@@ -3,3 +3,4 @@ I encountered a lot of error along the way.
 2. I did not know about select all => asterisk (*)
 3. Table is created => DROP TABLE IF EXISTS with an S
 4. Incompatible types in tables => 
+5. Table too big => changed to new file format, didnt work => split files in half
