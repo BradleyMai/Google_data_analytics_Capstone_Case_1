@@ -57,3 +57,5 @@ A worksheet can only have 1,048,576 rows in Microsoft Excel because of its inabi
 The 12 files are uploaded as tables into the dataset "2023_tripdata".
 
 For datasets that exceed 100MB, I had to either clear format or save the workbook in the .xlsb format. This allows the file to be uploaded onto BigQuery, since the platform only accepts file less than 100MB in storage. However, as I tried other format, it did not work. I had to try splitting some datasets in half.
+
+Another table named "2023_tripdata_total" was also created.
