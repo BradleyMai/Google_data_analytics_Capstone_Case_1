@@ -13,3 +13,6 @@ SQL Queries:
 Data Visualization: Tableau
 ## Background
 ### About Cyclistic
+This is a bike-share company based in Chicago with a network of more than 5824 bicycles and 692 stations. The company is using a diversification strategy in marketing, that is appealling to various types of riders. Their pricing plans are also designed to help make this possible with 3 types of tickets: single-ride pass & full-day pass (for casual riders), and annual membership (for Cyclistic members). They are trying to convert more casual riders into Cyclistic members as they have concluded that annual memberships are generating more profits than casual riders. Moreno - the director or marketing and my supervisor - set a clear goal: *To design marketing strategies aimed at converting casual riders into annual members*.
+### Scenario
+I am an assumed data analyst that falls under the management of Moreno. I will have to analyze Cyclistic historical bike trip data to find the insight, firstly to identify trends, and secondly to find out whether the direction of the team is correct. 
