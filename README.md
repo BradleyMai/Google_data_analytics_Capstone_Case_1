@@ -6,7 +6,7 @@ In this case study, I will act as a real-world junior data analyst at a fictiona
 Data source: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html) [Accessed on 04/03/2023]
 SQL Queries:
 1. [Data combining](https://github.com/BradleyMai/Google_data_analytics_Capstone_Case_1/blob/main/Data%20combining)
-2. Data exploration
+2. [Data exploration](https://github.com/BradleyMai/Google_data_analytics_Capstone_Case_1/blob/main/Data%20exploration)
 3. Data cleaning
 4. Data analysis
 5. Data Visualization: Tableau
