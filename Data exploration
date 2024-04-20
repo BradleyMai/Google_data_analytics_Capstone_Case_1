@@ -1,0 +1,13 @@
+-- Data Exploration
+
+-- checking the data types of all columns
+
+-- checking for number of null values in all columns
+
+-- checking for duplicate rows
+
+-- ride_id - all have length of 16
+
+-- rideable_type - 3 unique types of bikes
+
+-- started_at, ended_at - TIMESTAMP - YYYY-MM-DD hh:mm:ss UTC
