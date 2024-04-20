@@ -1,0 +1,50 @@
+DROP TABLE IF EXISTS `sustained-fx-420803.2023_tripdata.2023_tripdata_total`;
+
+-- Combining 12 months data from Jan 2023 to Dec 2023
+
+CREATE TABLE IF NOT EXISTS `sustained-fx-420803.2023_tripdata.2023_tripdata_total`
+AS (
+SELECT *
+FROM
+(
+  SELECT * FROM `sustained-fx-420803.2023_tripdata.202301_tripdata`
+  UNION ALL
+  SELECT * FROM `sustained-fx-420803.2023_tripdata.202302_tripdata`
+  UNION ALL
+  SELECT * FROM `sustained-fx-420803.2023_tripdata.202303_tripdata`
+  UNION ALL
+  SELECT * FROM `sustained-fx-420803.2023_tripdata.202304_tripdata`
+  UNION ALL
+  SELECT * FROM `sustained-fx-420803.2023_tripdata.202305_tripdata`
+  UNION ALL
+  SELECT * FROM `sustained-fx-420803.2023_tripdata.202305_tripdata_02`
+  UNION ALL
+  SELECT * FROM `sustained-fx-420803.2023_tripdata.202306_tripdata`
+  UNION ALL
+  SELECT * FROM `sustained-fx-420803.2023_tripdata.202306_tripdata_02`
+  UNION ALL
+  SELECT * FROM `sustained-fx-420803.2023_tripdata.202307_tripdata`
+  UNION ALL
+  SELECT * FROM `sustained-fx-420803.2023_tripdata.202307_tripdata_02`
+  UNION ALL
+  SELECT * FROM `sustained-fx-420803.2023_tripdata.202308_tripdata`
+  UNION ALL
+  SELECT * FROM `sustained-fx-420803.2023_tripdata.202308_tripdata_02`
+  UNION ALL
+  SELECT * FROM `sustained-fx-420803.2023_tripdata.202309_tripdata`
+  UNION ALL
+  SELECT * FROM `sustained-fx-420803.2023_tripdata.202309_tripdata_02`
+  UNION ALL
+  SELECT * FROM `sustained-fx-420803.2023_tripdata.202310_tripdata`
+  UNION ALL
+  SELECT * FROM `sustained-fx-420803.2023_tripdata.202310_tripdata_02`
+  UNION ALL
+  SELECT * FROM `sustained-fx-420803.2023_tripdata.202311_tripdata`
+  UNION ALL
+  SELECT * FROM `sustained-fx-420803.2023_tripdata.202312_tripdata`
+));
+
+-- Counting rows
+
+SELECT COUNT(*)
+FROM `sustained-fx-420803.2023_tripdata.2023_tripdata_total`;
