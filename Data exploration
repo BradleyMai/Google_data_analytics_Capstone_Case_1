@@ -2,6 +2,10 @@
 
 -- checking the data types of all columns
 
+SELECT COLUMN_NAME, DATA_TYPE
+FROM `sustained-fx-420803.2023_tripdata`.INFORMATION_SCHEMA.COLUMNS
+WHERE table_name = '2023_tripdata_total'
+
 -- checking for number of null values in all columns
 
 -- checking for duplicate rows
