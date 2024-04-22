@@ -76,6 +76,7 @@ Before cleaning the data, I am familarizing myself with the data to find the inc
 ![image](https://github.com/BradleyMai/Google_data_analytics_Capstone_Case_1/assets/167451956/166306e1-0ee9-496e-9da5-d6c93dd10dc8)
 
 The result shows 5719877 rows containing ride_id with 16 characters, which equals the total rows => no need to clean.
+
 5. There are 3 unique types of bikes in our data
 
 ![image](https://github.com/BradleyMai/Google_data_analytics_Capstone_Case_1/assets/167451956/3a9646e5-00e3-447b-98a8-ff27029e1c8d)
