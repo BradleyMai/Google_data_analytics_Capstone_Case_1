@@ -64,6 +64,23 @@ Before cleaning the data, I am familarizing myself with the data to find the inc
 #### Observation
 1. The table below corresponds to the column names mentioned earlier, along with information about their data type.
 
-![image](https://github.com/BradleyMai/Google_data_analytics_Capstone_Case_1/assets/167451956/24ed5a0c-da62-40f1-8b60-fc2e9d2e2a06)
+![image](https://github.com/BradleyMai/Google_data_analytics_Capstone_Case_1/assets/167451956/06d08187-b640-4fb1-a5e0-78c16484c511)
 
-2.
+2. Then the number of null values within all columns are checked.
+
+![image](https://github.com/BradleyMai/Google_data_analytics_Capstone_Case_1/assets/167451956/ce89f567-86da-4a2d-a50e-d922a8871d43)
+
+3. Then the number of duplicate rows are checked. Result shows no duplicate rows.
+4. Ride_id character length also needs to be checked to ensure each ride_id contains exactly 16 characters.
+
+![image](https://github.com/BradleyMai/Google_data_analytics_Capstone_Case_1/assets/167451956/166306e1-0ee9-496e-9da5-d6c93dd10dc8)
+
+The result shows 5719877 rows containing ride_id with 16 characters, which equals the total rows => no need to clean.
+5. There are 3 unique types of bikes in our data
+
+![image](https://github.com/BradleyMai/Google_data_analytics_Capstone_Case_1/assets/167451956/3a9646e5-00e3-447b-98a8-ff27029e1c8d)
+
+
+
+
+ 
