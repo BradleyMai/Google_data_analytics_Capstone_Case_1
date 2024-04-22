@@ -6,3 +6,4 @@ I encountered a lot of error along the way.
 => Found the root cause: I deleted the format of some of the files, hence the data is converted from type TIMESTAMP to type FLOAT
 5. Table too big => changed to new file format, didnt work => split files in half
 6. Relearn how to use DISTINCT, COUNT, and GROUP BY, and HAVING
+7. You cannot write "= NULL" but have to use "IS NULL"
