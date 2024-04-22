@@ -82,6 +82,15 @@ The result shows 5719877 rows containing ride_id with 16 characters, which equal
 ![image](https://github.com/BradleyMai/Google_data_analytics_Capstone_Case_1/assets/167451956/3a9646e5-00e3-447b-98a8-ff27029e1c8d)
 
 
+6. The started_at and ended_at show start and end time in YYYY-MM-DD hh:mm:ss UTC format. There are 6419 rows of longer_than_a_day duration and 183451 rows of less_than_a_minute duration that needs to be removed.
+7. A total of 875848 rows without both start_station_id and start_station_name need to be removed.
+8. A total of 929343 rows without both end_station_id and end_station_name need to be removed.
+9. A total of 6990 rows without end_lat and end_lng that needs to be removed.
+10. There are 2 unique values that dictate member or casual riders.
+
+![image](https://github.com/BradleyMai/Google_data_analytics_Capstone_Case_1/assets/167451956/1f74780b-958d-49b9-bb06-7d642bb80061)
+
+11. Columns that need to be removed are start_station_id and end_station_id as they do not add value to analysis of our current problem. Longitude and latitude location columns may not be used in analysis but can be used to visualise a map.
 
 
  
