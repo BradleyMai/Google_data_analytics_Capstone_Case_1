@@ -94,7 +94,6 @@ The result shows 5719877 rows containing ride_id with 16 characters, which equal
 
 ### Data cleaning
 SQL query: 
-1. All the rows having missing values are deleted.
+1. All the rows having missing values are deleted (1,388,173 rows).
 2. 3 more columns ride_length for duration of the trip, day_of_week and month are added.
 3. Trips with duration less than a minute and longer than a day are excluded.
-4. Total 1,375,912 rows are removed in this step.
