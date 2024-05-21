@@ -98,3 +98,6 @@ SQL query:
 1. All the rows having missing values are deleted (1,388,173 rows).
 2. 3 more columns ride_length for duration of the trip, day_of_week and month are added.
 3. Trips with duration less than a minute and longer than a day are excluded (87419 rows less than a minute/5 rows longer than a day)
+
+## Analysis
+
