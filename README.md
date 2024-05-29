@@ -104,8 +104,12 @@ SQL query:
 ### Number of rides per month
 ![image](https://github.com/BradleyMai/Google_data_analytics_Capstone_Case_1/assets/167451956/b2199b68-80ce-4b64-9467-e240a66c75d4)
 
-number of member rides per month
-number of casual rides per month
+### number of member/casual rides per month
+![image](https://github.com/BradleyMai/Google_data_analytics_Capstone_Case_1/assets/167451956/80587efb-2281-4839-86c9-2f47c9626ed1)
+
+### difference between member/casual rides per month
+![image](https://github.com/BradleyMai/Google_data_analytics_Capstone_Case_1/assets/167451956/97e4fe87-be84-4e5f-8c0a-ca8608a28c7d)
+
 length of casual rides vs length of member rides
 Number of rides per day of the week
 average ride length for day of the week, by users
