@@ -101,3 +101,14 @@ SQL query:
 
 ## Analysis
 
+### Number of rides per month
+![image](https://github.com/BradleyMai/Google_data_analytics_Capstone_Case_1/assets/167451956/b2199b68-80ce-4b64-9467-e240a66c75d4)
+
+number of member rides per month
+number of casual rides per month
+length of casual rides vs length of member rides
+Number of rides per day of the week
+average ride length for day of the week, by users
+type of bikes used most, by users
+number of casual/member riders by part of the day (afternoon, morning, evening, night), each day of the week (Mon to Sun)
+Top 20 of start and end stations, by users
