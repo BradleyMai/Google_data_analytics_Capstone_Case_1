@@ -116,3 +116,8 @@ average ride length for day of the week, by users
 type of bikes used most, by users
 number of casual/member riders by part of the day (afternoon, morning, evening, night), each day of the week (Mon to Sun)
 Top 20 of start and end stations, by users
+
+**Average number of rides per month** = 353690 rides
+**Average number of distinct users per month** = 353690 users
+
+
